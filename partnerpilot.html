@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Certified profesional Partner pilot</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <link href="estilo.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700" rel="stylesheet">
+  </head>
+
+  <body>
+
+
+      <div id="contenedor">
+    <header>
+      <nav>
+      <ul>
+        <li><a href="index.html"><img src="img/logo.jpg" alt="logotipo" width="120"></a></li>
+        <li><a href="certificate.html">Certificate</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="partnerpilot.html">Partner pilot</a></li>
+        <li><a href="people.html">Certified people</a></li>
+        <li><a href="driving.html">Driving entrepreneurship</a></li>
+        <li><a href="buscador.html"><img src="img/lupa.png" alt="buscador" width="15"></a></li>
+        <li id="signin"><a href="sign.html">Sign in</a></li>
+      </ul>
+      </nav>
+    </header>
+
+
+      <!--nombre de página-->
+      <h2>Partner pilot</h2>
+
+
+      <!--SUBMENU-->
+      <div id="submenu">
+      <ul>
+        <li><a href="#"></a></li>
+      </ul>
+      </div>
+      <!--SUBMENU-->
+
+    </div><!--fin class="contenedor" osea fin del div de la foto cabecera-->
+
+
+    <h3>Partner pilot</h3>
+
+    <div class="bloques">
+
+      <aside>
+        <p><strong>We are looking for dynamic and successful companies with an innovative and sustainable approach to business! Become a pilot partner for our certification programme and get exclusive insights into the first European-wide standard to certify cross-functional competencies. Discuss and engage in a network of European experts and pilot partners the requirements for the future workforce and life-long learning.</strong></p>
+      </aside>
+
+      <article>
+        <p><strong>Become our pilot partner and enjoy the following benefits:</strong></p>
+
+ <p>- Free and facilitated certification of your staff<br>- Be among the first to test and use this state <br>- Join an influential EU network of renowned academia and business<br>- Demonstrate your pro-active attitude towards HR management and innovation<br>- Become a member of our expert pool and feedback on the future development of Certified Professional<br>- Receive suggestions for and admittance to high level training modules to strengthen competencies of your staff</p>
+
+<p><strong>What we expect from pilot partners:</strong></p>
+
+ <p>- Certification of selected staff (5 to 20 candidates)<br>- Feedback on the value and applicability of Certified Professional from your institution’s perspective<br>- Consent to us using collaboration as reference in communication measures for our public launch</p>
+      </article>
+
+      <section></section>
+    </div><!--fin bloques-->
+
+
+    <div class="casi">
+    <div class="boton">
+      <a href="#submenu"><p>Partner pilot application</p></a>
+    </div>
+    <section></section>
+    </div><!--fin casi-->
+
+
+
+
+
+
+
+
+
+
+
+    <!--FOOTER-->
+          <footer>
+            <div class="redes">
+            <img src="img/footer.jpg" alt="redes sociales" width="80">
+            </div>
+            <div class="texto">
+            <p>Terms and Condition</p>
+            <p>Acceptable Use Policy</p>
+            <p>Privacy Policy</p>
+            <p>Cookie Policy</p>
+            <p>Technical Support</p>
+          </div>
+          </footer>
+    <!--FOOTER-->
+
+
+    <!--QUE SIGN IN SEA AZUL AL PASAR LA FOTO Y BLANCO AL VOLVER A LA FOTO-->
+    <script src="js/jquery.min.js"></script>
+
+    <script>
+    var iScrollPos = $('#contenedor').height();
+
+    $(window).scroll(function () {
+        var iCurScrollPos = $(this).scrollTop();
+
+        if (iCurScrollPos > iScrollPos) {
+          $('#signin a').css({ color: '#0E4CA3' });
+            //Scrolling Down
+        }
+
+    //QUE SIGN IN SEA BLANCO AL VOLVER A LA FOTO
+        if (iCurScrollPos < iScrollPos) {
+          $('#signin a').css({ color: '#FFFFFF' });
+            //Scrolling Down
+        }
+           //Scrolling Up
+        });
+    </script>
+    <!--QUE SIGN IN SEA AZUL AL PASAR LA FOTO Y BLANCO AL VOLVER A LA FOTO-->
+
+
+  </body>
+</html>

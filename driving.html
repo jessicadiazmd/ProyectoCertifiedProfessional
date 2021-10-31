@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Certified profesional Driving entrepreneurship</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <link href="estilo.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700" rel="stylesheet">
+  </head>
+
+  <body>
+
+
+      <div id="contenedor">
+    <header>
+      <nav>
+      <ul>
+        <li><a href="index.html"><img src="img/logo.jpg" alt="logotipo" width="120"></a></li>
+        <li><a href="certificate.html">Certificate</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="partnerpilot.html">Partner pilot</a></li>
+        <li><a href="people.html">Certified people</a></li>
+        <li><a href="driving.html">Driving entrepreneurship</a></li>
+        <li><a href="buscador.html"><img src="img/lupa.png" alt="buscador" width="15"></a></li>
+        <li id="signin"><a href="sign.html">Sign in</a></li>
+      </ul>
+      </nav>
+    </header>
+
+
+    <!--nombre de página-->
+    <h2>Driving entrepreneurship</h2>
+
+
+    <!--SUBMENU-->
+    <div id="submenu">
+    <ul>
+      <li><a href="#"></a></li>
+    </ul>
+    </div>
+    <!--SUBMENU-->
+
+    </div><!--fin class="contenedor" osea fin del div de la foto cabecera-->
+
+
+    <h3>Driving entrepreneurship</h3>
+
+    <div class="bloques">
+
+      <aside>
+        <p><strong>The competency framework “Driving Entrepreneurship” is the conceptual basis for certifying the competencies of entrepreneurship for sustainability in line with the guiding principle of the Brundlandt Report “meeting the needs of the present without compromising the ability of future generations to meet their own needs”. An entrepreneur for sustainability in that sense not only refers to novel business initiatives, but also incorporates models of social and environmental business. The goals are development and implementation of innovative and sustainable business models –within both established and startup organisations.</strong></p>
+      </aside>
+
+      <article>
+        <p>A test phase for "Driving Entrepreneurship" is taking place from March to 30th June 2018.</p>
+      </article>
+
+      <section></section>
+    </div><!--fin bloques-->
+
+    <div class="casi">
+    <div class="boton">
+      <a href="#submenu"><p>Driving entrepreneurship test phase</p></a>
+    </div>
+    <section></section>
+    </div><!--fin casi-->
+
+
+
+
+
+
+
+
+
+
+
+    <!--FOOTER-->
+          <footer>
+            <div class="redes">
+            <img src="img/footer.jpg" alt="redes sociales" width="80">
+            </div>
+            <div class="texto">
+            <p>Terms and Condition</p>
+            <p>Acceptable Use Policy</p>
+            <p>Privacy Policy</p>
+            <p>Cookie Policy</p>
+            <p>Technical Support</p>
+          </div>
+          </footer>
+    <!--FOOTER-->
+
+
+    <!--QUE SIGN IN SEA AZUL AL PASAR LA FOTO Y BLANCO AL VOLVER A LA FOTO-->
+    <script src="js/jquery.min.js"></script>
+
+    <script>
+    var iScrollPos = $('#contenedor').height();
+
+    $(window).scroll(function () {
+        var iCurScrollPos = $(this).scrollTop();
+
+        if (iCurScrollPos > iScrollPos) {
+          $('#signin a').css({ color: '#0E4CA3' });
+            //Scrolling Down
+        }
+
+    //QUE SIGN IN SEA BLANCO AL VOLVER A LA FOTO
+        if (iCurScrollPos < iScrollPos) {
+          $('#signin a').css({ color: '#FFFFFF' });
+            //Scrolling Down
+        }
+           //Scrolling Up
+        });
+    </script>
+    <!--QUE SIGN IN SEA AZUL AL PASAR LA FOTO Y BLANCO AL VOLVER A LA FOTO-->
+
+  </body>
+</html>

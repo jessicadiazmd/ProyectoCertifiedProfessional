@@ -1,0 +1,196 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Certified professional Certified people</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <link href="estilo.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700" rel="stylesheet">
+  </head>
+
+  <body>
+
+
+      <div id="contenedor">
+    <header>
+      <nav>
+      <ul>
+        <li><a href="index.html"><img src="img/logo.jpg" alt="logotipo" width="120"></a></li>
+        <li><a href="certificate.html">Certificate</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="partnerpilot.html">Partner pilot</a></li>
+        <li><a href="people.html">Certified people</a></li>
+        <li><a href="driving.html">Driving entrepreneurship</a></li>
+        <li><a href="buscador.html"><img src="img/lupa.png" alt="buscador" width="15"></a></li>
+        <li id="signin"><a href="sign.html">Sign in</a></li>
+      </ul>
+      </nav>
+    </header>
+
+
+      <!--nombre de página-->
+      <h2>Certified people</h2>
+
+
+      <!--SUBMENU-->
+      <div id="submenu">
+      <ul>
+        <li><a href="#"></a></li>
+      </ul>
+      </div>
+      <!--SUBMENU-->
+
+    </div><!--fin class="contenedor" osea fin del div de la foto cabecera-->
+
+
+<h3>Certified people</h3>
+
+<div id="rectangulos">
+
+  <div class="parte1">
+<div class="eleccion">
+<p>Country of residence</p>
+</div>
+<div class="dos">
+<p>Job ambit</p>
+</div>
+</div><!--fin parte1-->
+
+<div class="parte2"></div>
+</div><!--fin id rectangulos-->
+
+
+<!--FOTOS + INFO-->
+<div id="profiles">
+  <div class="persona">
+    <div class="foto">
+      <img src="img/1.png" alt="karolina" width="110">
+    </div><!--fin foto-->
+    <div class="ellos">
+     <p><strong>Karolina Daszyńska-Żygadło</strong></p>
+     <p>PhD</p>
+     <p><em>Assessor for Promoting Innovation</em></p>
+   </div><!--fin ellos-->
+  </div><!--fin persona-->
+
+
+  <div class="persona">
+    <div class="foto">
+      <img src="img/4.jpg" alt="monica" width="110">
+    </div><!--fin foto-->
+    <div class="ellos">
+     <p><strong>Monika Besenyei</strong></p>
+     <p>MSc MPhil</p>
+     <p><em>Assessor for Accelerating Transitions</em></p>
+   </div><!--fin ellos-->
+  </div><!--fin persona-->
+
+    <section></section>
+
+</div><!--fin profiles-->
+
+<div id="profiles">
+  <div class="persona">
+    <div class="foto">
+      <img src="img/2.jpg" alt="Jacopo" width="110">
+    </div><!--fin foto-->
+    <div class="ellos">
+     <p><strong>Jacopo Gaspari</strong></p>
+     <p>Ph.D, Dipl Arch MSc</p>
+     <p><em>Assessor for Accelerating Transitions</em></p>
+   </div><!--fin ellos-->
+  </div><!--fin persona-->
+
+
+  <div class="persona">
+    <div class="foto">
+      <img src="img/3.jpg" alt="Attila" width="110">
+    </div><!--fin foto-->
+    <div class="ellos">
+     <p><strong>Attila Katona</strong></p>
+     <p>MSc</p>
+     <p><em>Assessor for Promoting Innovation</em></p>
+   </div><!--fin ellos-->
+  </div><!--fin persona-->
+
+    <section></section>
+
+</div><!--fin profiles-->
+
+<div id="profiles">
+  <div class="persona">
+    <div class="foto">
+      <img src="img/5.jpg" alt="Gil María" width="110">
+    </div><!--fin foto-->
+    <div class="ellos">
+     <p><strong>Gil María Campos Alabau</strong></p>
+     <p>MSc, MBA, MA</p>
+     <p><em>Assessor for Driving Entrepreneurship</em></p>
+   </div><!--fin ellos-->
+  </div><!--fin persona-->
+
+
+  <div class="persona">
+    <div class="foto">
+      <img src="img/6.jpg" alt="achilles" width="110">
+    </div><!--fin foto-->
+    <div class="ellos">
+     <p><strong>Achilles Georgiu</strong></p>
+     <p>MA CSc, MSc ITM</p>
+     <p><em>Assessor for Promoting Innovation</em></p>
+   </div><!--fin ellos-->
+  </div><!--fin persona-->
+
+    <section></section>
+
+</div><!--fin profiles-->
+<!--FIN FOTOS + INFO-->
+
+
+
+
+
+
+    <!--FOOTER-->
+          <footer>
+            <div class="redes">
+            <img src="img/footer.jpg" alt="redes sociales" width="80">
+            </div>
+            <div class="texto">
+            <p>Terms and Condition</p>
+            <p>Acceptable Use Policy</p>
+            <p>Privacy Policy</p>
+            <p>Cookie Policy</p>
+            <p>Technical Support</p>
+          </div>
+          </footer>
+    <!--FOOTER-->
+
+
+    <!--QUE SIGN IN SEA AZUL AL PASAR LA FOTO Y BLANCO AL VOLVER A LA FOTO-->
+    <script src="js/jquery.min.js"></script>
+
+    <script>
+    var iScrollPos = $('#contenedor').height();
+
+    $(window).scroll(function () {
+        var iCurScrollPos = $(this).scrollTop();
+
+        if (iCurScrollPos > iScrollPos) {
+          $('#signin a').css({ color: '#0E4CA3' });
+            //Scrolling Down
+        }
+
+    //QUE SIGN IN SEA BLANCO AL VOLVER A LA FOTO
+        if (iCurScrollPos < iScrollPos) {
+          $('#signin a').css({ color: '#FFFFFF' });
+            //Scrolling Down
+        }
+           //Scrolling Up
+        });
+    </script>
+    <!--QUE SIGN IN SEA AZUL AL PASAR LA FOTO Y BLANCO AL VOLVER A LA FOTO-->
+
+
+  </body>
+</html>
